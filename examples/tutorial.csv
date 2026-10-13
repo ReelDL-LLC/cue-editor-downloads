@@ -1,0 +1,18 @@
+﻿Cue ID,Row Type,Start TC,End TC,Source,Text,Categories,Duration,Actor,Offscreen,Notes
+tutorial-000001,beat,01:00:00:00,01:00:00:12,ACT ONE,,,0.500,,,
+tutorial-000002,slug,01:00:00:12,01:00:01:00,,INT. WORKROOM - NIGHT,,0.500,,,
+tutorial-000003,ost,01:00:01:00,01:00:02:23,MAIN TITLE,THE LANTERN,,2.000,,,
+tutorial-000004,dialog,01:00:03:00,01:00:06:00,MAYA,Did you bring the lantern?,question|emphasis,3.000,Jordan Vale,ON,
+tutorial-000005,dialog,01:00:06:07,01:00:09:00,ELI,"Yes, it is beside the window.",response|discourse_marker,2.708,Sam Reed,OS,
+tutorial-000006,ost,01:00:06:07,01:00:08:23,BURNED-IN TEXT,"Yes, it is beside the window.",,2.708,,,
+tutorial-000007,dialog,01:00:09:12,01:00:12:00,MAYA,We have 2 minutes.,number,2.500,Jordan Vale,,Listen again and confirm the number and On/Off label.
+tutorial-000008,dialog,01:00:12:09,01:00:15:00,ELI,Then let's get started.,contraction|dialog-overlap|overlap,2.625,Sam Reed,ON,
+tutorial-000009,dialog,01:00:14:00,01:00:16:00,MAYA,(Laughs),nonverbal|dialog-overlap|overlap,2.000,Jordan Vale,ON,
+tutorial-000010,slug,01:00:18:00,01:00:18:12,,EXT. GARDEN - NIGHT,,0.500,,,
+tutorial-000011,dialog,01:00:19:00,01:00:22:00,MAYA | ELI,Ready when you are.,,3.000,,ON,
+tutorial-000012,dialog,01:00:22:12,01:00:25:00,NARRATOR,The garden was quiet that night.,,2.500,,VO,
+tutorial-000013,ost,01:00:26:00,01:00:27:23,LIVE TEXT,OPEN UNTIL MIDNIGHT,,2.000,,,
+tutorial-000014,beat,01:00:30:00,01:00:30:12,ACT TWO,,,0.500,,,
+tutorial-000015,slug,01:00:31:00,01:00:31:12,,INT. WORKROOM - LATER,,0.500,,,
+tutorial-000016,dialog,01:00:33:00,01:00:36:00,ELI,We made it back safely.,,3.000,Sam Reed,ON,
+tutorial-000017,ost,01:00:40:00,01:00:43:23,CREDITS,Tutorial cast and crew,,4.000,,,
