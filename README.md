@@ -14,8 +14,10 @@ automatic labeling, re-transcription, exports, settings, and troubleshooting.
 - [Practice project and video](examples/README.md): an invented tutorial project
   you can use without production footage.
 
-The guide and screenshots reference version 2.6.4. The latest published installer
-is currently 2.6.3; features added in 2.6.4 are marked in the guide.
+The current release and guide reference version 2.6.5. Screenshots show 2.6.4.
+Version 2.6.5 includes all pending editing, review, export, and bookkeeping
+updates, plus protection against accidental cue drags and project filenames
+in window titles.
 
 ![Cue Editor workspace showing the cue editor, video, and timeline](docs/images/workspace.png)
 

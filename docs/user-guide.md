@@ -4,10 +4,9 @@ Cue Editor helps you review dialogue and displayed text, adjust cue timing again
 video, organize scene headings and beats, and deliver an ABS (As Broadcast Script).
 Use this guide for everyday editing, QC (Quality Control), and export.
 
-**Version reference:** 2.6.4, updated October 13, 2026. Screenshots show 2.6.4.
-The latest published installer is currently 2.6.3. Features marked **New in 2.6.4**
-will be available when that installer is published. Check your installed version
-in **Cue Editor → About Cue Editor**.
+**Version reference:** 2.6.5, updated October 14, 2026. Screenshots show 2.6.4.
+Version 2.6.5 includes all features described in this guide. Check your installed
+version in **Cue Editor → About Cue Editor**.
 
 The screenshots use *The Lantern*, an invented practice project. You can download
 the [sample project and video](../examples/README.md) to follow along.
@@ -70,7 +69,7 @@ applies before restarting; canceling it cancels that restart.
 
 Older installers may show trial or license prompts. If one appears, use the
 license supplied with your installation or contact the person who provided it.
-**New in 2.6.4:** editing does not require a license activation prompt.
+**New in 2.6.5:** editing does not require a license activation prompt.
 
 ## Your first project
 
@@ -110,6 +109,9 @@ between video and timeline to give either area more room. The video remains
 fitted within its panel.
 
 ## Open and save projects
+
+The main window title shows the filename of the opened or saved project.
+A new project shows **Cue Editor** until you save it.
 
 ### Open an existing project
 
@@ -224,6 +226,11 @@ Click a cue block to focus it. Use **Command-click** for individual selections a
 **Shift-click** for a range. Drag a selection box in the cue area to select cues.
 **Command+A** selects available cues when the timeline has focus.
 
+Cue moves and edge resizes require at least 6 pixels of horizontal pointer
+movement. Small movements still select the cue without changing its timing.
+Once dragging begins, you can move back toward the starting point for fine
+adjustments. This protection also applies to selected groups.
+
 Use **[** and **]** to move to the previous and next cue. **Shift+[** and
 **Shift+]** extend the selection. **3** jumps to the selected cue's start and **4**
 to its end. **Enter** edits the selected cue. From a cue editor field, **/** or
@@ -260,7 +267,7 @@ The **Transport → Play/Pause** menu is also available.
 
 ### Adjust speed
 
-**New in 2.6.4:** use the slider or number field to select **0.1× to 5×**, in
+**New in 2.6.5:** use the slider or number field to select **0.1× to 5×**, in
 **0.1× increments**. The review window shares the editor's current speed. Changing
 speed during playback keeps the playhead continuous.
 
@@ -319,7 +326,7 @@ Categories describe observable cue properties and review outcomes. Multiple
 categories can belong to one cue. Use canonical suggestions rather than inventing
 a new spelling.
 
-**New in 2.6.4:** categories appear as individual chips. Type into **Add category**
+**New in 2.6.5:** categories appear as individual chips. Type into **Add category**
 and accept a suggestion; remove a chip with its **×** button. Suggestions omit
 already assigned categories. Earlier versions use the categories text field.
 
@@ -357,7 +364,7 @@ be resolved as `ON` with the review action or **Command+Enter**.
 - **Duplicate in place:** select cues and press **Command+D**.
 - **Delete:** select cues and press **Backspace** or **Delete**.
 
-**New in 2.6.4:** merging cues whose text is identical keeps one copy of that text
+**New in 2.6.5:** merging cues whose text is identical keeps one copy of that text
 and combines applicable italic formatting. Different texts are joined in cue
 order. Check the resulting timing, source, and categories after any merge.
 
@@ -472,7 +479,7 @@ displayed controls to move back, forward, or replay the cue. Review fields share
 the main editor's validation and Undo/Redo history.
 
 Review highlights the field and, where applicable, the exact text that needs
-attention. **New in 2.6.4:** Source Repeats and On/Off steps do not automatically
+attention. **New in 2.6.5:** Source Repeats and On/Off steps do not automatically
 enter edit mode, so you can navigate before choosing to edit.
 
 ### Review every cue
@@ -537,7 +544,7 @@ during a run, the app can require a new run rather than applying results to a
 different cue snapshot. Automated assignments are suggestions for review, not a
 guarantee that every speaker visibility transition is correct.
 
-**New in 2.6.4:** confident on-screen results are retained as `ON`. The Intel
+**New in 2.6.5:** confident on-screen results are retained as `ON`. The Intel
 installer does not include automatic On/Off labeling; its manual labels and
 On/Off review remain available.
 
@@ -588,7 +595,7 @@ Open **File → Export**, or expand **Export** in Import and Timecode.
 | --- | --- |
 | CSV QC | Cue rows with a Quality Control filename marker |
 | CSV Conformed | Cue rows with a conformed filename marker |
-| Scene Headings | Only slug cues and their timecodes; new in 2.6.4 |
+| Scene Headings | Only slug cues and their timecodes; new in 2.6.5 |
 | ABS docx QC | Three Word document variants with Quality Control naming |
 | ABS docx Conformed | Three Word document variants with conformed naming |
 
@@ -596,7 +603,7 @@ Quality Control and Conformed export the same current cue content; their naming
 identifies the deliverable stage. CSV names use `.QCed_abs.csv` or
 `.conformed_abs.csv`. Scene Headings uses `.scene_headings.csv`.
 
-**New in 2.6.4:** the CSV choices are grouped in a submenu. Earlier versions show
+**New in 2.6.5:** the CSV choices are grouped in a submenu. Earlier versions show
 their cue-export choices directly.
 
 ### Resolve or accept review findings
@@ -708,7 +715,7 @@ These records can support a prepared production handoff. They distinguish
 accepted editing actions from mere key presses; a cue merge is not counted as a
 text rewrite. A usage record does not establish transcription accuracy.
 
-**New in 2.6.4:** when ReelDL bookkeeping has been configured on the computer,
+**New in 2.6.5:** when ReelDL bookkeeping has been configured on the computer,
 conformed and Quality Control cue/document exports report a work event. Reported
 work time uses the newest usage record for the episode. Scene Headings exports
 and test runs do not report billable work. Bookkeeping is optional: an error
@@ -727,7 +734,7 @@ export.
 | Cues and picture are offset | Confirm the frame rate, calibrate Current video timecode at a known frame, and check whether cue import applied an offset or normalization. |
 | Some cues seem to have disappeared | Clear Find Cues filters and Hide non-matches. Check selected navigation rows and scroll/zoom. These controls can hide or skip cues without deleting them. |
 | A key types text instead of moving a cue | Check focus. Ordinary typing stays in an editable field. Return focus to the timeline for cue shortcuts, or use Shift+Space for playback while editing. |
-| Speed returns to 1× after pausing | In 2.6.4, enable the padlock beside playback speed. Check your version if that control is absent. |
+| Speed returns to 1× after pausing | In 2.6.5, enable the padlock beside playback speed. Check your version if that control is absent. |
 | Re-Transcribe Selection is disabled | Highlight a time range in the upper half of the audio area and check that another job is not running. |
 | Re-transcription reports missing dependencies or episode data | Ask the production/operator who prepares GoodDL episodes to verify the external engine, models, and normalized episode inputs. The installer alone does not supply that engine. |
 | Generated speakers are unknown or identification was skipped | Review and assign sources manually. Successful generated dialogue and successful speaker identification are separate outcomes. |
@@ -739,7 +746,7 @@ export.
 | Return packaging fails after document export | Keep the written Word documents. Verify prepared delivery data, cut, template, document details, and matching video before retrying the optional package. |
 | Reopening does not resume review automatically | Start the same review mode to see Continue review, Start over, or Not now. Save progress before closing. |
 | An update check fails while offline | Reconnect and use Check for Updates again. Continue editing the installed version. |
-| A newer feature is missing | Check About Cue Editor and the latest published release. This guide identifies features added in 2.6.4. |
+| A newer feature is missing | Check About Cue Editor and the latest published release. This guide identifies features added in 2.6.5. |
 
 For a reproducible problem, [open an issue in the public repository](https://github.com/ReelDL-LLC/cue-editor-downloads/issues).
 Include the Cue Editor version, Mac processor, the menu/action involved, the error

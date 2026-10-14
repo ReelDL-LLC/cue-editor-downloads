@@ -1,6 +1,6 @@
 # Cue Editor Category Reference
 
-The 46 canonical categories available in Cue Editor 2.6.4. A cue may have multiple categories; saved text joins distinct labels with `|`. Choose the canonical suggestion when assigning a category.
+The 46 canonical categories available in Cue Editor 2.6.5. A cue may have multiple categories; saved text joins distinct labels with `|`. Choose the canonical suggestion when assigning a category.
 
 **TC (Timecode)** appears in the stored timing-check labels. **SFX (Sound Effects)** appears in the stored sound-effects-overlap label. Labels are identifiers; their exact spelling matters.
 
@@ -8,7 +8,7 @@ The 46 canonical categories available in Cue Editor 2.6.4. A cue may have multip
 
 ## Assign and interpret categories
 
-In 2.6.4, enter a label in **Add category**, accept its suggestion, and remove a category with its chip’s **×** button. Earlier versions use the categories text field. Automatic categories are reassessed after committed edits. Manual choices retain their applicable review context, but a split or merge can require reassessment.
+In 2.6.5, enter a label in **Add category**, accept its suggestion, and remove a category with its chip’s **×** button. Earlier versions use the categories text field. Automatic categories are reassessed after committed edits. Manual choices retain their applicable review context, but a split or merge can require reassessment.
 
 A label is not proof that an audio classifier ran. Some categories are assigned from text or annotations, some are suggestions, and some require listening or a verified raw/reference comparison. Do not infer a verified negative from a missing label. Review approval does not turn automatic evidence into a verified reference.
 

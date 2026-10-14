@@ -1,6 +1,6 @@
 # Cue Editor Keyboard Shortcuts
 
-Default shortcuts for Cue Editor 2.6.4 on Mac. Open **Settings → Keyboard Shortcuts…** to inspect or change your installed bindings.
+Default shortcuts for Cue Editor 2.6.5 on Mac. Open **Settings → Keyboard Shortcuts…** to inspect or change your installed bindings.
 
 **Command** is ⌘, **Option** is ⌥, **Control** is ⌃, and **Shift** is ⇧. A plus sign joins keys pressed together. Numeric-keypad keys are separate from the number row.
 
